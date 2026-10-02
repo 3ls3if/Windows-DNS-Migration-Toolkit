@@ -1,0 +1,27 @@
+# PowerShell
+*.ps1.bak
+
+# Local migration packages - DO NOT COMMIT
+DNS-Migration/
+**/DNS-Migration/
+*.dns
+*.xml
+*.reg
+
+# Migration reports
+ImportReport/
+ExportResults.csv
+ZoneInventory.csv
+MigrationInfo.json
+Forwarders.txt
+ConditionalForwarders.xml
+
+# Logs
+*.log
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
